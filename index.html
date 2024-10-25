@@ -14,8 +14,42 @@
 <body class="flex items-center justify-center min-h-screen bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
   <div class="text-center px-4">
     <h1 id="message" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
-        Princess Gamayan Villareal
+      Bakit kailangang i-accept si Mel sa Instagram?
+    </h1>
+    <ul class="text-lg text-white mt-4">
+      <li>1. Kasi mabait</li>
+      <li>2. Kasi LOVE si Princess</li>
+      <li>3. ACCEPT mo na ako</li>
+      <li>4. Wag kana mag dalawang isip pa. Accept mo na ako.</li>
+    </ul>
+    <h1 id="message" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+      Purpose?
+    </h1>
+    <ul class="text-lg text-white mt-4">
+      <li>1. LOVE ko kasi siya.</li>
+      <li>2. Para Mutual Love na sa Instagram.</li>
+      
+    </ul>
+    <div class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+      <h1>PRINCESS GAMAYAN VILLAREAL</h1>
+
+    </div>
+    <h1 id="NURSE" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+
     </h1>
   </div>
+  
+
+  <script>
+    const messageElement = document.getElementById('NURSE');
+    let message = '';
+
+    for (let i = 0; i < 100; i++) {
+      message += 'RN';
+      if (i < 99) message += ', '; // Add a comma except for the last one
+    }
+
+    messageElement.innerHTML = message; // Set the generated message as the inner HTML
+  </script>
 </body>
 </html>
