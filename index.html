@@ -32,26 +32,48 @@
     </ul> -->
     <div class="flex items-center justify-center min-h-screen">
       <div class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
-        <img src="princess.jpg" alt="Princess Gamayan Villareal" class="w-32 h-32 rounded-full mx-auto mb-4 animate-bounce">
+        <img src="princess.jpg" alt="Princess Gamayan Villareal" class="w-32 h-32 rounded-full mx-auto mb-4 animate-fly">
         <h1 class="text-center">PRINCESS GAMAYAN VILLAREAL, RN</h1>
+        
+        <!-- Smaller button -->
+        <div class="mt-6">
+          <a href="https://www.instagram.com/melemme1212" target="_blank">
+            <button class="px-4 py-1 text-sm bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300">
+              Follow on Instagram
+            </button>
+          </a>
+        </div>
       </div>
     </div>
     
     <style>
-      /* Simple bounce animation for the photo */
-      .animate-bounce {
-        animation: bounce 2s infinite;
+      /* Floating animation for a "flying" effect */
+      .animate-fly {
+        animation: fly 5s infinite ease-in-out;
       }
     
-      @keyframes bounce {
-        0%, 100% {
+      @keyframes fly {
+        0% {
           transform: translateY(0);
         }
+        25% {
+          transform: translate(10px, -15px);
+        }
         50% {
-          transform: translateY(-20px);
+          transform: translate(-10px, -30px);
+        }
+        75% {
+          transform: translate(10px, -15px);
+        }
+        100% {
+          transform: translateY(0);
         }
       }
     </style>
+    
+    
+    
+    
     
     
     <!-- <h1 id="NURSE" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg"> -->
