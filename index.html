@@ -13,7 +13,7 @@
 </head>
 <body class="flex items-center justify-center min-h-screen bg-gradient-to-r from-green-400 via-blue-500 to-purple-600">
   <div class="text-center px-4">
-    <h1 id="message" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+    <!-- <h1 id="message" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
       Bakit kailangang i-accept si Mel sa Instagram?
     </h1>
     <ul class="text-lg text-white mt-4">
@@ -29,18 +29,38 @@
       <li>1. LOVE ko kasi siya.</li>
       <li>2. Para Mutual Love na sa Instagram.</li>
       
-    </ul>
-    <div class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
-      <h1>PRINCESS GAMAYAN VILLAREAL</h1>
-
+    </ul> -->
+    <div class="flex items-center justify-center min-h-screen">
+      <div class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+        <img src="princess.jpg" alt="Princess Gamayan Villareal" class="w-32 h-32 rounded-full mx-auto mb-4 animate-bounce">
+        <h1 class="text-center">PRINCESS GAMAYAN VILLAREAL, RN</h1>
+      </div>
     </div>
-    <h1 id="NURSE" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg">
+    
+    <style>
+      /* Simple bounce animation for the photo */
+      .animate-bounce {
+        animation: bounce 2s infinite;
+      }
+    
+      @keyframes bounce {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+    </style>
+    
+    
+    <!-- <h1 id="NURSE" class="text-3xl sm:text-4xl md:text-5xl font-bold text-white p-4 rounded-lg shadow-lg"> -->
 
     </h1>
   </div>
   
 
-  <script>
+  <!-- <script>
     const messageElement = document.getElementById('NURSE');
     let message = '';
 
@@ -50,6 +70,6 @@
     }
 
     messageElement.innerHTML = message; // Set the generated message as the inner HTML
-  </script>
+  </script> -->
 </body>
 </html>
